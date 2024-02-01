@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Grid</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__block">
+                <div class="header__logo">
+                    <p class="text__logo">Shop<span class="text__logo text-blue">Online</span></p>
+                </div>
+
+                <nav class="header__menu">
+                    <button type="submit" class="menu__buttton">
+                        <a href="#" class="header__link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_7031_14)">
+                                    <path d="M3 18H9V16H3V18ZM3 6V8H21V6H3ZM3 13H15V11H3V13Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_7031_14">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>Меню</button>
+                </nav>
+
+                <div class="search">
+                    <input type="text" class="search__term" placeholder="Я ищу...">
+                    <button type="submit" class="search__button">
+                        <span class="search__elements">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="white">
+                                <path
+                                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                                <path xmlns="http://www.w3.org/2000/svg"
+                                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+                <div class="header__personal">
+                    <ul class="personal__list personal">
+                        <li class="menu__item"><img src="img/person.svg" alt="" class="menu__img"><a href="#"
+                                class="menu__link profile">Профиль</a></li>
+                        <li class="menu__item"><img src="img/basket.svg" alt="" class="menu__img basket-image"><a
+                                href="#" class="menu__link basket">Корзина<span
+                                    class="menu__link basket numbers">2</span></a></li>
+                        <li class="menu__item"><img src="img/favorite.svg" alt="" class="menu__img"><a href="#"
+                                class="menu__link favorites">Избранное</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner__container">
+                <div class="banner__block">
+                    <h1 class="banner__title">-50% на все ноутбуки</h1>
+                    <div class="banner__subtitle">
+                        <p class="banner__subtitle-text">До конца акции:</p>
+                    </div>
+                    <div class="countdown">
+                        <div class="countdown-item">
+                            <span id="days">3</span>
+                            <span class="label">дня</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="hours">8</span>
+                            <span class="label">часов</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="minutes">43</span>
+                            <span class="label">минуты</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grid-card">
+            <div class="container">
+                <div class="cards">
+                    <div class="card card-book">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/1.png" alt="">
+                            </a>
+                            <a href="#" class="card__link"><span class="big">Книга –</span> лучший подарок</a>
+                        </div>
+                    </div>
+
+                    <div class="card card-time">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/2.png" alt="">
+                            </a>
+                            <a href="#" class="card__link center">Время скидок!</a>
+                            <div class="card__label bottom-right">-25%</div>
+                        </div>
+                    </div>
+
+                    <div class="card card-sneakers">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/3.png" alt="">
+                            </a>
+                            <a href="#" class="card__link blue">Вторая пара кроссовок
+                                <span class="text-big"> &nbsp;в подарок!</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card card-present">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/4.png" alt="">
+                            </a>
+                            <a href="#" class="card__link left-text">Идеи новогодних
+                                подарков</a>
+                        </div>
+                    </div>
+
+                    <div class="card card-red-sneakers">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/5.png" alt="">
+                            </a>
+                            <div class="card__label top-left">-40%</div>
+                        </div>
+                    </div>
+
+                    <div class="card card-laptop">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/6.png" alt="">
+                            </a>
+                            <a href="#" class="card__link left-text bottom">Выгодно в декабре!</a>
+                            <div class="card__label bottom-right long">-15%</div>
+                        </div>
+                    </div>
+
+                    <div class="card card-present-new">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/7.png" alt="">
+                            </a>
+                            <a href="#" class="card__link white">Новогодние украшения</a>
+                        </div>
+                    </div>
+
+                    <div class="card card-red-dress">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/8.png" alt="">
+                            </a>
+                            <div class="card__label bottom-verticals">-55%</div>
+                        </div>
+                    </div>
+
+                    <div class="card card-cleaning">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/9.png" alt="">
+                            </a>
+                            <a href="#" class="card__link left-text small-text">На бытовую химию</a>
+                            <div class="card__label top-left small">-25%</div>
+                        </div>
+                    </div>
+
+                    <div class="card card-balls">
+                        <div class="card__text">
+                            <a href="#" class="card__image">
+                                <img class="card__img" src="img/10.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
