@@ -14,4 +14,4 @@ git status
 git add .
 git commit -m "pro"
 git diff --color-words
-git push# урок6
+git push
